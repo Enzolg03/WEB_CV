@@ -236,6 +236,15 @@ header {
 .skill__icon.mysql{
     border: 4px solid #00796B;
 }
+.skill__icon.spring-boot{
+    border: 4px solid #8bc34a;
+}
+.skill__icon.angular{
+    border: 4px solid #E22F2F;
+}
+.skill__icon.postman{
+    border: 4px solid #f36933;
+}
 
 .skill__icon img {
     width: 100%;
@@ -342,7 +351,7 @@ img{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background: rgb(0, 128, 255,0.5);
+    background: rgba(0, 128, 255, 0.616);
 }
 
 .image-project-container:hover .gradient{
